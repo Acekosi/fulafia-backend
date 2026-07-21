@@ -631,7 +631,7 @@ def run_extraction(
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            headless=False,
+            headless=True,
             args=[
                 "--disable-blink-features=AutomationControlled",
                 # Keep this a genuine headed browser (avoids the headless
