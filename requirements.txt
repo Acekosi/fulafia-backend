@@ -1,4 +1,4 @@
 fastapi
 uvicorn
-playwright
+playwright==1.61.0
 pydantic
